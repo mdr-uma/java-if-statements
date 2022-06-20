@@ -14,6 +14,15 @@ public class App {
 		}else{
 			System.out.println("It's False");
 		}
+		
+		//if statement with else if. You can have if else as many as you want		
+		if(num == 30) {
+			System.out.println("It's true");
+		}else if(num > 40){
+			System.out.println("It's False");
+		}else {
+			System.out.println("None of the above");
+		}
 	}
 
 }
